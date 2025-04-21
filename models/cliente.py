@@ -1,4 +1,4 @@
-from pessoa import *
+from models.pessoa import *
 
 class Cliente(Pessoa):
     def __init__(self, nome, rg, cpf, telefone, id):

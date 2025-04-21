@@ -1,4 +1,4 @@
-from conn import *
+from database.conn import *
 from abc import ABC, abstractmethod
 
 class Id(ABC):

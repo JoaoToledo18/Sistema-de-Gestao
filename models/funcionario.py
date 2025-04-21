@@ -1,4 +1,4 @@
-from pessoa import *
+from models.pessoa import *
 
 class Funcionario(Pessoa):
     def __init__(self, nome, rg, cpf, telefone,id):

@@ -1,4 +1,4 @@
-from id import *
+from models.id import *
 from abc import ABC,abstractmethod
 
 class Pessoa(Id, ABC):

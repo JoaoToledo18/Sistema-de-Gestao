@@ -1,4 +1,4 @@
-from id import *
+from models.id import *
 
 class Servico(Id):
 

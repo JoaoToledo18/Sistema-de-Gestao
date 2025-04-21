@@ -1,4 +1,4 @@
-from id import *
+from models.id import *
 
 class Veiculo(Id):
     def __init__(self,marca, modelo, placa, id):

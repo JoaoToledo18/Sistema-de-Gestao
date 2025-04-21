@@ -1,11 +1,11 @@
-from funcionario import Funcionario
-from cliente import Cliente
-from veiculo import Veiculo
-from msg import Mensagens
-from estoque import Estoque
-from servico import Servico
+from models.funcionario import Funcionario
+from models.cliente import Cliente
+from models.veiculo import Veiculo
+from ui.msg import Mensagens
+from models.estoque import Estoque
+from models.servico import Servico
 import time
-from updateInput import valorInput
+from utils.updateInput import valorInput
 
 
 if __name__ == "__main__":
